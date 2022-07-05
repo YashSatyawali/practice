@@ -15,7 +15,6 @@ void linkedListTraversal(struct Node *head)
         printf("element is %d \n",ptr->data);
         ptr=ptr->next;
     }while(ptr!=head);
-    
 }
 
 struct Node * insertAtFirst(struct Node *head, int data)
